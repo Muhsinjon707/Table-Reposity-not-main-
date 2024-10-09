@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100dvh;
+  justify-content: center;
+  align-items: center;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  font-weight: 500;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+th {
+  text-align: center;
+  margin: auto;
+}
+
+span {
+  border: none;
+  border-radius: 7px;
+  padding: 5px 8px;
+}
+
+.fantasy {
+  background-color: rgb(242, 153, 242);
+}
+
+.fiction {
+  background-color: palevioletred;
+}
+
+td:nth-child(5) {
+  text-align: center;
+}
+
+.progress {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 50%;
+  border-left-color: gray;
+  border-right-color: green;
+  padding-left: 10px;
+}/*# sourceMappingURL=style.css.map */
